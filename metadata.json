@@ -1,0 +1,6 @@
+{
+  "name": "NewsPortal - Hybrid AI & Editorial Newsroom",
+  "description": "A high-density editorial publishing portal featuring breaking journalism, curated deep-dive analysis, and modern longform media.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

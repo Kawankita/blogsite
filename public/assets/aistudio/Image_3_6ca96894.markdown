@@ -1,0 +1,237 @@
+---
+name: Obsidian Dispatch
+colors:
+  surface: '#0e131f'
+  surface-dim: '#0e131f'
+  surface-bright: '#343946'
+  surface-container-lowest: '#090e1a'
+  surface-container-low: '#161b28'
+  surface-container: '#1b1f2c'
+  surface-container-high: '#252a37'
+  surface-container-highest: '#303542'
+  on-surface: '#dee2f4'
+  on-surface-variant: '#ccc3d4'
+  inverse-surface: '#dee2f4'
+  inverse-on-surface: '#2b303d'
+  outline: '#958e9e'
+  outline-variant: '#4a4452'
+  surface-tint: '#d2bbff'
+  primary: '#d2bbff'
+  on-primary: '#3e0789'
+  primary-container: '#a27bf1'
+  on-primary-container: '#36007d'
+  inverse-primary: '#6e46ba'
+  secondary: '#d1bcff'
+  on-secondary: '#3d0090'
+  secondary-container: '#5728af'
+  on-secondary-container: '#c4abff'
+  tertiary: '#c0c6da'
+  on-tertiary: '#293040'
+  tertiary-container: '#8a91a3'
+  on-tertiary-container: '#232a39'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#eaddff'
+  primary-fixed-dim: '#d2bbff'
+  on-primary-fixed: '#25005a'
+  on-primary-fixed-variant: '#552ba0'
+  secondary-fixed: '#eaddff'
+  secondary-fixed-dim: '#d1bcff'
+  on-secondary-fixed: '#24005b'
+  on-secondary-fixed-variant: '#5425ac'
+  tertiary-fixed: '#dce2f7'
+  tertiary-fixed-dim: '#c0c6da'
+  on-tertiary-fixed: '#141c2a'
+  on-tertiary-fixed-variant: '#404757'
+  background: '#0e131f'
+  on-background: '#dee2f4'
+  surface-variant: '#303542'
+typography:
+  display-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 64px
+    letterSpacing: -0.02em
+  display-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 44px
+    fontWeight: '700'
+    lineHeight: 52px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.005em
+  body-xl:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '400'
+    lineHeight: 32px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  meta:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system drives a hybrid editorial news portal and publication blog, fusing high-velocity breaking journalism with long-form analytical reading. The aesthetic leans into a modern, refined technical minimalism tailored for dark environments. It prioritizes legibility, typographic rhythm, and deep spatial immersion.
+
+The visual style eliminates visual clutter in favor of high-contrast editorial hierarchy, precise surface layering, and controlled luminescent purple focal points. Interactions feel direct, responsive, and tactile without drifting into gaudy skeuomorphism or distracting glassmorphic filters.
+
+## Colors
+
+The palette establishes visual structure across deep navy-tinted charcoal backgrounds:
+
+- **Surface Foundations:**
+  - `Surface Canvas`: `#0C111D` (root screen backdrop).
+  - `Surface Container`: `#161B26` (article listing cards, secondary widgets, sidebars).
+  - `Surface High`: `#1F242F` (hero editorial cards, spotlight features, newsletter CTA containers).
+- **Brand & Accent:**
+  - `Primary / Accent`: `#9E77ED` (interactive highlights, category badges, active links, primary CTA fill).
+  - `Primary Hover`: `#7F56D9` (interactive hover states).
+  - `Accent Tint`: `rgba(158, 119, 237, 0.15)` (pill background tints, subtle highlight states).
+- **Typography:**
+  - `Text Primary`: `#F9FAFB` (headlines, display text, lead intros).
+  - `Text Secondary`: `#CECFD2` (article body copy, synopsis excerpts).
+  - `Text Tertiary`: `#94969C` (byline meta, timestamps, reading durations, kicker tags).
+  - `Primary Button Text`: `#0C111D` (ensures AA/AAA contrast over the `#9E77ED` primary button fill).
+- **Dividers & Structure:**
+  - `Border Subtle`: `#222938` (structural dividers, card perimeters).
+  - `Border Strong`: `#333B48` (form outlines, active focus borders, high-priority frames).
+
+## Typography
+
+The typography pairs Plus Jakarta Sans for structural personality with Inter for utilitarian reading clarity:
+
+- **Display & Headlines:** Plus Jakarta Sans delivers a confident, geometric editorial presence with tight negative tracking (`-0.01em` to `-0.02em`) to avoid looseness in dark interfaces.
+- **Editorial Body:** Inter provides high x-height and neutral geometry designed to prevent reader fatigue across analytical prose, set at comfortable reading line-height ratios (1.55 to 1.6).
+- **Metadata & Badges:** Uppercase and semi-bold sub-headings take slightly expanded tracking (`0.01em` to `0.04em`) to maintain legibility when displayed in tertiary gray `#94969C` against `#161B26` containers.
+
+## Layout & Spacing
+
+The layout is built upon a 12-column responsive fluid grid with fixed max-width constraints for editorial reading optimization:
+
+- **Breakpoints:**
+  - Desktop: `1280px` max content container; 12 columns; `gutter`: 24px (`1.5rem`); outer margin: 32px (`2rem`).
+  - Tablet: `768px` to `1024px`; 8 columns; `gutter`: 16px (`1rem`); outer margin: 24px (`1.5rem`).
+  - Mobile: `< 768px`; 4 columns; `gutter-mobile`: 16px (`1rem`); `margin-mobile`: 16px (`1rem`).
+- **Reading Columns:** Editorial article bodies collapse into a dedicated center-aligned 720px column to preserve optimal characters-per-line (65–75 characters) regardless of viewport width.
+- **Grid Density:** News streams use compact card gaps (`space-md` or 16px), whereas long-form featured layouts expand to `space-xl` (32px) to denote analytical priority.
+
+## Elevation & Depth
+
+Visual depth is achieved through tonal separation and low-contrast borders rather than heavy, drop-shadow blurs. In this deep dark environment, standard black shadows disappear; thus, edges and surfaces establish spatial hierarchy:
+
+1. **Level 0 (Canvas):** `#0C111D` (base viewport).
+2. **Level 1 (Card Standard):** `#161B26` enclosed by a 1px solid `#222938` boundary. Hovering shifts the border to `#333B48` with a subtle luminous tint (`0 4px 20px -2px rgba(158, 119, 237, 0.08)`).
+3. **Level 2 (Hero & Elevated Units):** `#1F242F` container with a 1px border of `#333B48`.
+4. **Level 3 (Dropdowns, Overlays & Sticky Nav):** `#161B26` with `backdrop-filter: blur(12px)`, an outline border of `#333B48`, and directional edge shadow `0 12px 32px -4px rgba(0, 0, 0, 0.5)`.
+
+## Shapes
+
+The design system employs a tiered geometric rounding model aligned with functional hierarchy:
+
+- **Small Components (8px / `0.5rem`):** Applied to buttons, form inputs, badge pills, utility chips, and interactive dropdown triggers.
+- **Medium Containers (12px / `0.75rem`):** Applied to news feed cards, thumbnail wrappers, media embeds, and comment boxes.
+- **Large Banners & Frames (24px / `1.5rem`):** Reserved for hero story canvases, major promotional containers, breaking news lead banners, and newsletter subscription cards.
+- **Full Radius (9999px):** Status badges, live broadcast indicators, and avatar portraits.
+
+## Components
+
+- **Buttons:**
+  - *Primary:* Background `#9E77ED`, text `#0C111D`, border radius 8px, font weight 600. On hover: background transitions to `#7F56D9`. On active: subtle scale shift (0.98).
+  - *Secondary / Ghost:* Background transparent, border 1px solid `#333B48`, text `#F9FAFB`. On hover: background `#1F242F`, border `#9E77ED`.
+- **Chips & Kicker Tags:**
+  - Border radius 8px (or full pill for status indicators). Background `rgba(158, 119, 237, 0.15)`, text `#9E77ED`, font size 12px, font weight 600, uppercase letter-spacing.
+  - Live/Breaking chip: Background `rgba(240, 68, 56, 0.15)`, text `#F04438`, accompanied by an animated pulsing dot.
+- **Cards (Editorial & Feed):**
+  - *Feed Card:* Background `#161B26`, border 1px solid `#222938`, border radius 12px, inner padding `space-lg`. Image corners clipped at 8px radius.
+  - *Hero Card:* Background `#1F242F`, border 1px solid `#333B48`, border radius 24px, inner padding `space-xl`.
+- **Form Inputs & Search:**
+  - Background `#161B26`, border 1px solid `#222938`, border radius 8px, text `#F9FAFB`, placeholder `#94969C`. On focus: border 1px solid `#9E77ED`, ring `0 0 0 3px rgba(158, 119, 237, 0.20)`.
+- **Checkboxes & Radios:**
+  - Base square/circle in `#161B26` with 1px solid `#333B48`. When checked: fill `#9E77ED`, icon `#0C111D`.
+- **Editorial Meta Lists & Dividers:**
+  - Inline metadata displays inline dot separators in `#333B48`. Horizontal rules across article bodies render as 1px solid `#222938`.
+- **Breaking News Ticker:**
+  - Fixed-height horizontal banner positioned below navigation. Background `#161B26`, border-bottom 1px solid `#222938`, lead badge in primary purple or alert red, followed by ticker text in `#CECFD2`.
